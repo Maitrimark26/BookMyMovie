@@ -6,7 +6,7 @@ export  const PageNotFound = () => {
     <section>
       <div className=" flex text-7xl">
 <p>404!<br /> oops Page not found </p>
-<img src={image} className="mr-80 px-15" />
+<img src={image}  alt="No ing" className="mr-80 px-15" />
 
       </div>
      

@@ -9,7 +9,7 @@ const MovieDetail = () => {
 
 
 
-// const pageTitle=useTitle(movie.title);
+
  const image=movie.poster_path?`https://image.tmdb.org/t/p/w500/${movie.poster_path}`:b;
 
 
@@ -75,7 +75,7 @@ fetchMovies();
 
 <p className="my-4 flex items-center">
   <span className="mr-2 font-bold">IMBD code:</span>
-  <a href={`hhtps://www.imdb.com/title/${movie.imdb_id}` }  target="_blank">{movie.imdb_id} </a>
+  <span >{movie.imdb_id} </span>
 </p>
 
 
